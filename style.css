@@ -16,23 +16,31 @@ header{
     height: 150px;
     text-align: center;
     font-size: 1.5em;
+    margin: 0;
     
 }
 header > h1{
     padding-top: 15px;
     color: #1A1A1A;
+    margin: 0;
 }
 nav{
     border: 2px solid rgba(0, 0, 0, 0.678);
     text-align: center;
+    margin: 0;
 }
-
-.menu{
-    height: 25px;
-    width: 700px;
+.link{
+    max-width: 400px;
     margin: auto;
-    columns: 2;
+}
+.menu{
+    height: 100%;
+    width: 100%;
     background-color: rgba(184, 178, 178, 0.267);
+}
+aside{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .buscar{
     width: 165px;
@@ -46,13 +54,14 @@ main{
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to top, rgba(66, 63, 63, 0.835), rgba(184, 178, 178, 0.267));
+    margin: 0;
 }
 section{
     
     width: 80%;
     height: 80%;
     margin: auto;
-    margin-top: 30px;
+    
     border-radius: 5px;
 }
 section > h2{
